@@ -1,5 +1,5 @@
 import React from "react";
-import { AraBlog, Travelweb, app, web, Image, Section_2 } from "~/assets";
+// import { AraBlog, Travelweb, app,  } from "~/assets";
 import { styles } from "~/utilities/style";
 
 const BentoBox = () => {
@@ -40,7 +40,7 @@ const BentoBox = () => {
           </div>
           {/* <div className='min-h-[500px] flex justify-center items-center bg-[#0e1010] m-4 rounded-lg'> */}
           <div className="max-w-full p-4">
-            <img src={Image} alt="" className="rounded-md" />
+            <img src={""} alt="" className="rounded-md" />
           </div>
           {/* </div> */}
         </div>
@@ -79,7 +79,7 @@ const BentoBox = () => {
           </div>
           {/* <div className='min-h-[500px] flex justify-center items-center bg-[#0e1010] rounded-lg'> */}
           <div className="max-w-full p-4">
-            <img src={Section_2} alt="" className="rounded-lg max-h-[500px]" />
+            <img src={""} alt="" className="rounded-lg max-h-[500px]" />
           </div>
           {/* </div> */}
         </div>

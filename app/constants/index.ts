@@ -1,7 +1,7 @@
 import {
-  bbktour,
-  randonne,
-  multiservice,
+  // bbktour,
+  // randonne,
+  // multiservice,
   WordPressIcon,
   shopify,
   github,
@@ -10,6 +10,10 @@ import {
   framer,
   hostinger,
   gith,
+  // ShopifyWhite,
+  dev,
+  fig,
+  adj,
   wordpress,
 } from "~/assets";
 
@@ -32,7 +36,7 @@ const worksexample = [
   //  {image: jobit, source_code_link: "https://github.com" },
   {
     type_id: 2,
-    image: bbktour,
+    // image: bbktour,
     source_code_link: "https://github.com",
     name: "bbktour",
     tags: [{ IT: "WordPress" }],
@@ -40,7 +44,7 @@ const worksexample = [
   },
   {
     type_id: 2,
-    image: bbktour,
+    // image: bbktour,
     source_code_link: "https://github.com",
     name: "bbktour",
     tags: [{ IT: "WordPress" }],
@@ -48,7 +52,7 @@ const worksexample = [
   },
   {
     type_id: 2,
-    image: bbktour,
+    // image: bbktour,
     source_code_link: "https://github.com",
     name: "bbktour",
     tags: [{ IT: "WordPress" }],
@@ -56,7 +60,7 @@ const worksexample = [
   },
   {
     type_id: 2,
-    image: bbktour,
+    // image: bbktour,
     source_code_link: "https://github.com",
     name: "bbktour",
     tags: [{ IT: "WordPress" }],
@@ -64,7 +68,7 @@ const worksexample = [
   },
   {
     type_id: 0,
-    image: randonne,
+    // image: randonne,
     source_code_link: "https://github.com",
     name: "randonne Maroc",
     tags: [{ IT: "WordPress" }],
@@ -72,7 +76,7 @@ const worksexample = [
   },
   {
     type_id: 0,
-    image: randonne,
+    // image: randonne,
     source_code_link: "https://github.com",
     name: "randonne Maroc",
     tags: [{ IT: "WordPress" }],
@@ -80,7 +84,7 @@ const worksexample = [
   },
   {
     type_id: 0,
-    image: randonne,
+    // image: randonne,
     source_code_link: "https://github.com",
     name: "randonne Maroc",
     tags: [{ IT: "WordPress" }],
@@ -88,7 +92,7 @@ const worksexample = [
   },
   {
     type_id: 0,
-    image: randonne,
+    // image: randonne,
     source_code_link: "https://github.com",
     name: "randonne Maroc",
     tags: [{ IT: "WordPress" }],
@@ -96,7 +100,7 @@ const worksexample = [
   },
   {
     type_id: 1,
-    image: multiservice,
+    // image: multiservice,
     source_code_link: "https://github.com",
     name: "Multiservice pro",
     tags: [{ IT: "WordPress" }],
@@ -104,7 +108,7 @@ const worksexample = [
   },
   {
     type_id: 1,
-    image: multiservice,
+    // image: multiservice,
     source_code_link: "https://github.com",
     name: "Multiservice pro",
     tags: [{ IT: "WordPress" }],
@@ -112,7 +116,7 @@ const worksexample = [
   },
   {
     type_id: 1,
-    image: multiservice,
+    // image: multiservice,
     source_code_link: "https://github.com",
     name: "Multiservice pro",
     tags: [{ IT: "WordPress" }],
@@ -120,7 +124,7 @@ const worksexample = [
   },
   {
     type_id: 1,
-    image: multiservice,
+    // image: multiservice,
     source_code_link: "https://github.com",
     name: "Multiservice pro",
     tags: [{ IT: "WordPress" }],
@@ -338,6 +342,26 @@ const stepsProcess = [
     title: "Maintain",
     description:
       "After we deploy the product, we provide ongoing maintenance that includes bug fixes, content updates, technical and design enhancements.",
+  },
+];
+const servicesAndFeatures = [
+  {
+    icon: "",
+    title: "Web Development",
+    description:
+      "We build websites that are fast, secure, and easy to navigate, and that help you reach your goals.",
+  },
+  {
+    icon: "",
+    title: "Shopify apps Development",
+    description:
+      "We create custom Shopify apps to help you scale your business or help reach more customers.",
+  },
+  {
+    icon: "",
+    title: "",
+    description:
+      "We optimize your systems and apps to make them faster, more efficient, and more secure.",
   },
 ];
 
