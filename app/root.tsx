@@ -9,7 +9,6 @@ import "./tailwind.css";
 import { ThemeModeScript } from "flowbite-react";
 import Navbar from "~/components/navbar.component";
 
-
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -52,7 +51,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body className="bg-customColor">
-      <Navbar />
+        <Navbar />
 
         {children}
         <ScrollRestoration />
