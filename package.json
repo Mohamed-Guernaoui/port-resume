@@ -18,6 +18,7 @@
     "@remix-run/node": "^2.15.2",
     "@remix-run/react": "^2.15.2",
     "@remix-run/serve": "^2.15.2",
+    "create-cloudflare": "^2.35.1",
     "flowbite-react": "^0.10.2",
     "framer-motion": "^6.5.1",
     "isbot": "^4.4.0",
