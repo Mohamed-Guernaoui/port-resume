@@ -22,7 +22,7 @@ const Link = ({
         href={link.link}
         className={`${styles.sublink} flex flex-row gap-2 items-center`}
       >
-        <div className="relative h-6 w-6 rounded-full flex bg-transparent bg-white  p-1">
+        <div className="relative h-6 w-6 rounded-md flex bg-transparent bg-white  p-1">
           <img src={link.icon} alt="object-cover h-6 w-6" />
         </div>
         {link.name}{" "}
