@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "~/Hoc";
 import { stepsProcess } from "~/constants";
 import { styles } from "~/utilities/style";
-import { staggerContainer, textVariant } from "~/utilities/motion";
+import { staggerContainer } from "~/utilities/motion";
 import AnimationWrapper from "~/common/AnimationPresence";
 
 const ProcessLine = () => {
@@ -22,17 +22,21 @@ const ProcessLine = () => {
             >
               <li role="article" className="relative pl-6 ">
                 <div className="">
-                  <span className="absolute top-5 left-0 z-10 flex items-center p-3 justify-center  w-8 h-8 -translate-x-1/2 rounded-full text-slate-700 ring-4 ring-red-600 bg-zinc-900 ">
-                    <h2 className={"font-outfitsubtext  text-white  "}>
+                  <span className="absolute top-5 left-0 z-10 flex items-center p-3 justify-center  w-8 h-8 -translate-x-1/2 rounded-full text-slate-700 ring-4 dark:ring-[#f64343ab] ring-red-600 dark:bg-zinc-900 bg-white ">
+                    <h2
+                      className={
+                        "font-outfitsubtext dark:text-white text-black  "
+                      }
+                    >
                       {item.step}
                     </h2>
                   </span>
                 </div>
 
-                <div className="flex flex-col ml-5 flex-1 gap-5 bg-zinc-900 p-5 rounded-md">
+                <div className="flex flex-col ml-5 flex-1 gap-5 bg-gray-200 dark:bg-zinc-900 p-5 rounded-md">
                   <h4
                     className={
-                      "font-outfitsubtext font-normal sm:text-[24px] text-[22px] leading-[29px] lg:leading-[32px]  tracking-wider text-white "
+                      "font-outfitsubtext  font-normal sm:text-[24px] text-[22px] leading-[29px] lg:leading-[32px]  tracking-wider dark:text-white "
                     }
                   >
                     {" "}
@@ -53,7 +57,7 @@ const Process = () => {
   return (
     <motion.section
       variants={staggerContainer()}
-      className="relative mx-auto mt-20 w-full"
+      className="relative mx-auto mt-20 w-full mb-32"
     >
       <div className="w-full flex flex-col justify-start items-start gap-5 mb-10">
         <h2 className={`${styles.SubHeadText} `}>Our process to success</h2>

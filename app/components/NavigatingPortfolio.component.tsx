@@ -103,7 +103,7 @@ const TabsNavigate = ({
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: index * 0.1 }}
           >
-            <WorkCard project={project} />
+            <WorkCard project={project}  />
           </AnimationWrapper>
         ))}
       </div>
