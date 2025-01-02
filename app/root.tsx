@@ -5,13 +5,22 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import "./tailwind.css";
-import { ThemeModeScript } from "flowbite-react";
+import "./style/tailwind.css";
 import Navbar from "~/components/navbar.component";
+import type { MetaFunction } from "@remix-run/node";
+
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Code Night" },
+    { name: "description", content: "Welcome to Remix!" },
+  ];
+};
 
 export function Layout({ children }: { children: React.ReactNode }) {
+
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -50,14 +59,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         <Links />
       </head>
-      <body className="bg-customColor">
+      <body className="dark:bg-customColor">
         <Navbar />
-
         {children}
         <ScrollRestoration />
         <Scripts />
       </body>
-      <ThemeModeScript />
     </html>
   );
 }
