@@ -25,7 +25,7 @@ const LogoTicker = () => {
                     key={partner.name}
                     src={tickers[0].logo}
                     alt={partner.name}
-                    className="w-auto h-10"
+                    className="w-auto h-10 light:bg-black "
                   />
                 );
               })}
